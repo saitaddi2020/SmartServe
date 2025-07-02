@@ -181,3 +181,33 @@ p {
   padding-left: 20px;
 }
 
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+nav ul li a.active {
+  font-weight: bold;
+  color: #00b894;
+}
+nav ul li a.active:hover {
+  color: #00a884;
+}
+footer {
+  background-color: #f3f3f3;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
